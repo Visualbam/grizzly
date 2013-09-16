@@ -5,7 +5,9 @@ During the assesment I took it on myself to optimize the mark up for proper sema
 
 If needed I can definitely re-do the assessment to match the provided code exactly. I just wanted to show my capabilities. I made slight UI changes as well to better suit screenreaders.
 
-The bonus section both include two things that I have not done before but I'm a very self sufficent/motivated learner.
+The bonus section both include two things that I have not done before but I'm a very self sufficent/motivated learner. If I sit down I'm sure I could adapt.
+
+Please note there is an issue with safari reading the media queries. This is the first time I've ran into this issue. I figured it might be a fun reverse scenario and I would love to hear input on what you think might be causing this.
 
 GiftCards.com Front End Developers Coding Assessment
 =========================
