@@ -1,0 +1,1271 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 18, sass/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, sass/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 30, sass/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 33, sass/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 36, sass/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 40, sass/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 44, sass/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 49, sass/_reset.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 42, sass/_grid.scss */
+body {
+  width: 100%;
+  *zoom: 1;
+}
+/* line 28, sass/_grid.scss */
+body:before, body:after {
+  content: "";
+  display: table;
+}
+/* line 32, sass/_grid.scss */
+body:after {
+  clear: both;
+}
+
+/* Global Reset & Standards ---------------------- */
+/* line 3, sass/base.scss */
+html {
+  font-size: 100%;
+}
+
+/* line 4, sass/base.scss */
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  line-height: 1;
+  color: #333333;
+  position: relative;
+}
+
+/* line 5, sass/base.scss */
+html, body {
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 48rem) {
+  /* line 8, sass/base.scss */
+  body {
+    font-size: ms(0);
+  }
+}
+/* line 11, sass/base.scss */
+::-moz-selection, ::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 16, sass/base.scss */
+*:focus {
+  outline: 0;
+}
+
+/* Links ---------------------- */
+/* line 21, sass/base.scss */
+a img {
+  border: none;
+}
+
+/* line 22, sass/base.scss */
+a {
+  color: #17575c;
+  text-decoration: none;
+  line-height: inherit;
+}
+
+/* line 23, sass/base.scss */
+a:hover {
+  color: #124448;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+/* line 24, sass/base.scss */
+a:focus {
+  color: #124448;
+}
+
+/* line 25, sass/base.scss */
+p a, p a:visited {
+  line-height: inherit;
+}
+
+/* Misc ---------------------- */
+/* line 28, sass/base.scss */
+.left {
+  float: left;
+}
+
+/* line 29, sass/base.scss */
+.right {
+  float: right;
+}
+
+/* line 30, sass/base.scss */
+.text-left {
+  text-align: left;
+}
+
+/* line 31, sass/base.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 32, sass/base.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 33, sass/base.scss */
+.hide {
+  display: none;
+}
+
+/* line 34, sass/base.scss */
+.hide-override {
+  display: none !important;
+}
+
+/* line 35, sass/base.scss */
+.highlight {
+  background: #ffff99;
+}
+
+/* Reset for strange margins by default on <figure> elrements */
+/* line 38, sass/base.scss */
+figure {
+  margin: 0;
+}
+
+/* line 40, sass/base.scss */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+/* line 46, sass/base.scss */
+p {
+  font-family: inherit;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+/* line 47, sass/base.scss */
+p.lead {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+/* line 49, sass/base.scss */
+aside p {
+  font-size: 0rem;
+  line-height: 1.35;
+  font-style: italic;
+}
+
+/* line 51, sass/base.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #434343;
+  text-rendering: optimizeLegibility;
+  line-height: 1.1;
+  margin-bottom: 0.75rem;
+  margin-top: 1rem;
+}
+/* line 60, sass/base.scss */
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+  font-size: 60%;
+  color: #909090;
+  line-height: 0;
+}
+
+/* line 63, sass/base.scss */
+h1 {
+  font-size: 2.25rem;
+}
+
+/* line 64, sass/base.scss */
+h2 {
+  font-size: 2rem;
+}
+
+/* line 65, sass/base.scss */
+h3 {
+  font-size: 1.75rem;
+}
+
+/* line 66, sass/base.scss */
+h4 {
+  font-size: 1.5rem;
+}
+
+/* line 67, sass/base.scss */
+h5 {
+  font-size: 1.25rem;
+}
+
+/* line 68, sass/base.scss */
+h6 {
+  font-size: 1rem;
+}
+
+/* line 70, sass/base.scss */
+hr {
+  border: solid #ddd;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 22px 0 21px;
+  height: 0;
+}
+
+/* line 72, sass/base.scss */
+.subheader {
+  line-height: 1.3;
+  color: #909090;
+  font-weight: 300;
+  margin-bottom: 1.25rem;
+}
+
+/* line 74, sass/base.scss */
+rem, i {
+  font-style: italic;
+  line-height: inherit;
+}
+
+/* line 75, sass/base.scss */
+strong, b {
+  font-weight: bold;
+  line-height: inherit;
+}
+
+/* line 76, sass/base.scss */
+small {
+  font-size: 60%;
+  line-height: inherit;
+}
+
+/* line 77, sass/base.scss */
+code {
+  font-weight: bold;
+  background: #ffff99;
+}
+
+/* Lists ---------------------- */
+/* line 81, sass/base.scss */
+ul, ol, dl {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rrem;
+  list-style-position: outside;
+  padding-left: 1rrem;
+}
+
+/* line 83, sass/base.scss */
+ul li {
+  margin-bottom: 0.5rem;
+}
+/* line 86, sass/base.scss */
+ul.square {
+  list-style-type: square;
+}
+/* line 87, sass/base.scss */
+ul.square li ul {
+  list-style: inherit;
+}
+/* line 89, sass/base.scss */
+ul.circle {
+  list-style-type: circle;
+}
+/* line 90, sass/base.scss */
+ul.circle li ul {
+  list-style: inherit;
+}
+/* line 92, sass/base.scss */
+ul.disc {
+  list-style-type: disc;
+}
+/* line 93, sass/base.scss */
+ul.disc li ul {
+  list-style: inherit;
+}
+/* line 95, sass/base.scss */
+ul.no-bullet {
+  list-style: none;
+}
+/* line 96, sass/base.scss */
+ul.large li {
+  line-height: 21px;
+}
+
+/* line 100, sass/base.scss */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+}
+/* line 105, sass/base.scss */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+/* line 113, sass/base.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 118, sass/base.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+/* line 128, sass/base.scss */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 139, sass/base.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 143, sass/base.scss */
+.clearfix {
+  *zoom: 1;
+}
+/* line 144, sass/base.scss */
+.clearfix:before {
+  content: " ";
+  display: table;
+}
+/* line 148, sass/base.scss */
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+/* Grid ---------------------- */
+/* line 158, sass/base.scss */
+.wrapper {
+  width: 90%;
+  margin: 0 5%;
+}
+
+/* line 163, sass/base.scss */
+section:after {
+  clear: both;
+  content: "";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+/* Grid ---------------------- */
+/* line 172, sass/base.scss */
+.row-content, footer {
+  padding: 1.5em;
+  margin: 0;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 78rem;
+}
+
+/* line 183, sass/base.scss */
+.row-content:after, footer:after {
+  clear: both;
+  content: "";
+  display: table;
+  height: 0;
+  visibility: hidden;
+}
+
+/* line 7, sass/layout.scss */
+.logo {
+  padding: 1rem;
+  width: 15rem;
+  position: absolute;
+  top: 0;
+}
+
+/* line 13, sass/layout.scss */
+header {
+  background-color: white;
+  color: #fff;
+  border-bottom: 5px solid #0b292b;
+}
+
+/* line 18, sass/layout.scss */
+a.menu-link {
+  float: right;
+  display: block;
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+/* line 24, sass/layout.scss */
+nav[role=navigation] {
+  clear: both;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+/* line 31, sass/layout.scss */
+nav[role=navigation] ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 34, sass/layout.scss */
+nav[role=navigation] ul li {
+  margin: 0;
+}
+/* line 36, sass/layout.scss */
+nav[role=navigation] ul li a {
+  display: block;
+  padding: 1rem;
+  color: #258d95;
+  background: #092123;
+  border-top: 1px solid #0c2d2f;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+/* line 45, sass/layout.scss */
+nav[role=navigation] ul li a:hover {
+  background: #17575c;
+  color: white;
+}
+
+/* line 54, sass/layout.scss */
+.js nav[role=navigation] {
+  overflow: hidden;
+  max-height: 0;
+}
+
+/* line 58, sass/layout.scss */
+nav[role=navigation].active {
+  max-height: 15rem;
+}
+
+@media screen and (min-width: 48.25rem) {
+  /* line 64, sass/layout.scss */
+  .logo {
+    display: inline-block;
+    float: left;
+    position: relative !important;
+    display: inline-block;
+    padding: 0.5rem 0.25rem 0.25rem 1rem;
+    width: 13rem;
+  }
+
+  /* line 72, sass/layout.scss */
+  a.menu-link {
+    display: none;
+  }
+
+  /* line 75, sass/layout.scss */
+  .js nav[role=navigation] {
+    max-height: none;
+  }
+
+  /* line 78, sass/layout.scss */
+  nav[role=navigation] ul {
+    margin: 0 0 0 -0.25rem;
+    border: 0;
+    float: right;
+  }
+  /* line 82, sass/layout.scss */
+  nav[role=navigation] ul li {
+    display: inline;
+    float: left;
+    border-left: 1px solid #efefef;
+  }
+  /* line 86, sass/layout.scss */
+  nav[role=navigation] ul li a {
+    text-align: center !important;
+    border: 0;
+    background: none;
+    padding: 1.5rem 2.5rem;
+  }
+}
+/* line 97, sass/layout.scss */
+#home {
+  background: url(/grizzly/assets/images/homepage.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 104, sass/layout.scss */
+#home .recentGames .row-content {
+  background: #ccf0f2;
+  padding: 0;
+}
+/* line 107, sass/layout.scss */
+#home .recentGames .row-content .overlay {
+  height: 20rem;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url(/grizzly/assets/images/coach.png);
+}
+/* line 113, sass/layout.scss */
+#home .recentGames .row-content h2 {
+  color: white;
+  margin: 0;
+  width: 100%;
+  text-shadow: 1px 1px 1px #000;
+  font-size: 1.15rem;
+  text-align: center;
+  font-weight: bold;
+  padding: 2rem;
+  position: relative;
+  top: 57%;
+  background: rgba(0, 0, 0, 0.65);
+}
+/* line 126, sass/layout.scss */
+#home .recentGames .row-content div {
+  width: 100%;
+}
+/* line 128, sass/layout.scss */
+#home .recentGames .row-content div img {
+  width: 100%;
+}
+/* line 130, sass/layout.scss */
+#home .recentGames .row-content div:last-child h3 {
+  background: #0d3033;
+  padding: 1.5rem;
+  font-size: 1.25rem;
+  margin-top: -0.025rem;
+  color: white;
+  margin-bottom: 5.5%;
+  width: 100.5%;
+}
+/* line 139, sass/layout.scss */
+#home .recentGames .row-content div:last-child h3 span a {
+  color: #269199;
+}
+/* line 142, sass/layout.scss */
+#home .recentGames .row-content div:last-child img {
+  display: block;
+  width: 15rem;
+  padding: 1rem;
+  margin: 0 auto;
+}
+/* line 153, sass/layout.scss */
+#home .teamInformation .row-content {
+  background: white;
+  padding: 0.75rem 2rem 2rem 1.5rem;
+}
+/* line 156, sass/layout.scss */
+#home .teamInformation .row-content .news {
+  width: 100%;
+}
+/* line 159, sass/layout.scss */
+#home .teamInformation .row-content .news .merchandise img {
+  float: left;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+/* line 166, sass/layout.scss */
+#home .teamInformation .row-content .standings {
+  width: 100%;
+}
+/* line 169, sass/layout.scss */
+#home .teamInformation .row-content .standings tbody td:first-child {
+  text-align: center;
+}
+@media screen and (min-width: 48.25rem) {
+  /* line 177, sass/layout.scss */
+  #home .recentGames {
+    margin-top: 3rem;
+  }
+  /* line 179, sass/layout.scss */
+  #home .recentGames .row-content {
+    background: #ccf0f2;
+    padding: 0;
+  }
+  /* line 182, sass/layout.scss */
+  #home .recentGames .row-content .vs {
+    width: 35%;
+  }
+  /* line 185, sass/layout.scss */
+  #home .recentGames .row-content .overlay {
+    height: 25rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 55rem;
+  }
+  /* line 191, sass/layout.scss */
+  #home .recentGames .row-content h2 {
+    text-align: left;
+    top: 60%;
+    width: 75%;
+    left: 5%;
+    font-size: 1.45rem;
+  }
+  /* line 198, sass/layout.scss */
+  #home .recentGames .row-content div {
+    float: left;
+    width: 65%;
+  }
+  /* line 201, sass/layout.scss */
+  #home .recentGames .row-content div img {
+    width: 100%;
+  }
+  /* line 207, sass/layout.scss */
+  #home .teamInformation .row-content .news {
+    display: inline;
+    float: left;
+    width: 64.58333%;
+    margin: 0 1.04167%;
+  }
+  /* line 210, sass/layout.scss */
+  #home .teamInformation .row-content .news .merchandise img {
+    float: left;
+    width: 48%;
+  }
+  /* line 213, sass/layout.scss */
+  #home .teamInformation .row-content .news .merchandise img:last-child {
+    margin-left: 1rem;
+  }
+  /* line 219, sass/layout.scss */
+  #home .teamInformation .row-content .standings {
+    display: inline;
+    float: left;
+    width: 31.25%;
+    margin: 0 1.04167%;
+  }
+  /* line 222, sass/layout.scss */
+  #home .teamInformation .row-content .standings tbody td:first-child {
+    text-align: center;
+  }
+}
+
+/* line 233, sass/layout.scss */
+#footer {
+  background: #17575c;
+  color: white;
+}
+/* line 236, sass/layout.scss */
+#footer h6 {
+  color: #0d3033;
+  font-weight: bold;
+}
+/* line 240, sass/layout.scss */
+#footer .nav {
+  clear: both;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+/* line 247, sass/layout.scss */
+#footer .nav ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 250, sass/layout.scss */
+#footer .nav ul li {
+  margin: 0.5rem 0;
+}
+/* line 252, sass/layout.scss */
+#footer .nav ul li a {
+  display: block;
+  padding: 1rem;
+  color: white;
+  background: #092123;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+/* line 260, sass/layout.scss */
+#footer .nav ul li a:hover {
+  color: white;
+}
+@media screen and (min-width: 48.25rem) {
+  /* line 268, sass/layout.scss */
+  #footer div {
+    display: inline;
+    float: left;
+    width: 31.25%;
+    margin: 0 1.04167%;
+  }
+  /* line 271, sass/layout.scss */
+  #footer .nav {
+    width: 100%;
+  }
+  /* line 272, sass/layout.scss */
+  #footer .nav ul {
+    margin: 0 0 0 -0.25rem;
+    border: 0;
+    width: 100%;
+  }
+  /* line 276, sass/layout.scss */
+  #footer .nav ul li {
+    width: 44%;
+    margin: 0 0.5rem 0.5rem 0;
+    padding: 0.5rem;
+    display: inline-block;
+    float: left;
+    background: #0d3033;
+  }
+  /* line 283, sass/layout.scss */
+  #footer .nav ul li a {
+    text-align: center !important;
+    border: 0;
+    background: none;
+    padding: 0;
+  }
+}
+
+/* line 297, sass/layout.scss */
+#contact {
+  background: url(/grizzly/assets/images/homepage.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 303, sass/layout.scss */
+#contact .row-content {
+  padding: 0;
+  background: white;
+}
+/* line 306, sass/layout.scss */
+#contact .contact h2 {
+  margin: 0 0 2rem 0;
+  background: #4b2424;
+  padding: 1.5rem;
+  font-size: 1.25rem;
+  margin-top: -0.025rem;
+  color: white;
+  margin-bottom: 3.5%;
+  width: 100%;
+}
+/* line 316, sass/layout.scss */
+#contact .contact h2 span a {
+  color: #a04e4e;
+}
+/* line 319, sass/layout.scss */
+#contact .contact .information {
+  padding: 0 2rem 3rem 2rem;
+  display: inline;
+  float: left;
+  width: 97.91667%;
+  margin: 0 1.04167%;
+}
+/* line 322, sass/layout.scss */
+#contact .contact .information label {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+/* line 328, sass/layout.scss */
+#contact .contact .information input[type="text"], #contact .contact .information input[type="email"], #contact .contact .information textarea {
+  color: black !important;
+  font-weight: bold;
+}
+/* line 332, sass/layout.scss */
+#contact .contact .information ::-webkit-input-placeholder {
+  font-weight: normal;
+}
+/* line 336, sass/layout.scss */
+#contact .contact .information :-moz-placeholder {
+  /* Firefox 18- */
+  font-weight: normal;
+}
+/* line 340, sass/layout.scss */
+#contact .contact .information ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-weight: normal;
+}
+/* line 344, sass/layout.scss */
+#contact .contact .information :-ms-input-placeholder {
+  font-weight: normal;
+}
+/* line 347, sass/layout.scss */
+#contact .contact .information input, #contact .contact .information textarea {
+  width: 97.4%;
+  height: 3rem;
+  color: black;
+  padding: 5px 10px;
+  font-size: 1rem;
+  background: #efefef;
+  border: 2px solid #FFF;
+  margin-bottom: 25px;
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -ms-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+/* line 362, sass/layout.scss */
+#contact .contact .information input:focus, #contact .contact .information textarea:focus {
+  border: 2px solid #dd4545;
+  color: #999;
+}
+/* line 366, sass/layout.scss */
+#contact .contact .information textarea {
+  height: 150px;
+}
+/* line 369, sass/layout.scss */
+#contact .contact .information .submit {
+  width: 97%;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  background: #dd4545;
+  height: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #FFF;
+  border: 2px solid #b43838;
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -ms-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+/* line 385, sass/layout.scss */
+#contact .contact .information .submit:hover {
+  color: #FFF;
+  border: 2px solid #dd4545;
+  background: #b43838;
+  cursor: pointer;
+}
+/* line 392, sass/layout.scss */
+#contact .contact .information .required {
+  color: #b43838;
+}
+/* line 396, sass/layout.scss */
+#contact .contact .map {
+  display: inline;
+  float: left;
+  width: 97.91667%;
+  margin: 0 1.04167%;
+  padding: 0 2rem 3rem 2rem;
+}
+@media screen and (min-width: 48.25rem) {
+  /* line 405, sass/layout.scss */
+  #contact .contact h2 {
+    margin-top: 3rem;
+  }
+  /* line 406, sass/layout.scss */
+  #contact .contact .information {
+    padding: 0 0 3rem 2rem;
+    display: inline;
+    float: left;
+    width: 47.91667%;
+    margin: 0 1.04167%;
+  }
+  /* line 410, sass/layout.scss */
+  #contact .contact .map {
+    display: inline;
+    float: left;
+    width: 47.91667%;
+    margin: 0 1.04167%;
+    padding: 0 2rem 3rem 0;
+  }
+}
+
+/* line 420, sass/layout.scss */
+#sponsors {
+  background: url(/grizzly/assets/images/homepage.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 426, sass/layout.scss */
+#sponsors .row-content {
+  padding: 0;
+  background: white;
+}
+/* line 428, sass/layout.scss */
+#sponsors .sponsors h2 {
+  margin: 0 0 2rem 0;
+  background: #4b2424;
+  padding: 1.5rem;
+  font-size: 1.25rem;
+  margin-top: -0.025rem;
+  color: white;
+  width: 100%;
+}
+/* line 437, sass/layout.scss */
+#sponsors .sponsors h2 span a {
+  color: #a04e4e;
+}
+/* line 440, sass/layout.scss */
+#sponsors .sponsors .information {
+  padding: 0 2rem 3rem 2rem;
+}
+/* line 442, sass/layout.scss */
+#sponsors .sponsors .information h3 {
+  margin: 0 0 1rem 0;
+  font-weight: bold;
+}
+/* line 447, sass/layout.scss */
+#sponsors .sponsors .information ul li {
+  display: inline;
+  float: left;
+  width: 97.91667%;
+  margin: 0 1.04167%;
+}
+/* line 451, sass/layout.scss */
+#sponsors .sponsors .information img {
+  width: 100%;
+  padding: 1rem;
+}
+@media screen and (min-width: 28.25rem) {
+  /* line 459, sass/layout.scss */
+  #sponsors .sponsors .information ul li {
+    display: inline;
+    float: left;
+    width: 47.91667%;
+    margin: 0 1.04167%;
+  }
+  /* line 463, sass/layout.scss */
+  #sponsors .sponsors .information img {
+    padding: 2rem;
+  }
+}
+@media screen and (min-width: 48.25rem) {
+  /* line 470, sass/layout.scss */
+  #sponsors .sponsors h2 {
+    margin-top: 3rem;
+  }
+  /* line 473, sass/layout.scss */
+  #sponsors .sponsors .information ul li {
+    display: inline;
+    float: left;
+    width: 22.91667%;
+    margin: 0 1.04167%;
+  }
+  /* line 477, sass/layout.scss */
+  #sponsors .sponsors .information img {
+    padding: 2rem;
+  }
+}
+
+/* line 487, sass/layout.scss */
+#team {
+  background: url(/grizzly/assets/images/homepage.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 493, sass/layout.scss */
+#team .row-content {
+  padding: 0;
+  background: white;
+}
+/* line 496, sass/layout.scss */
+#team .team h2 {
+  margin: 0 0 2rem 0;
+  background: #4b2424;
+  padding: 1.5rem;
+  font-size: 1.25rem;
+  margin-top: -0.025rem;
+  color: white;
+  margin-bottom: 5.5%;
+  width: 100%;
+}
+/* line 506, sass/layout.scss */
+#team .team h2 span a {
+  color: #a04e4e;
+}
+/* line 509, sass/layout.scss */
+#team .team .information {
+  padding: 0 2rem 3rem 2rem;
+  display: inline;
+  float: left;
+  width: 97.91667%;
+  margin: 0 1.04167%;
+}
+/* line 513, sass/layout.scss */
+#team .team .map {
+  display: inline;
+  float: left;
+  width: 97.91667%;
+  margin: 0 1.04167%;
+  padding: 0 2rem 3rem 2rem;
+}
+/* line 519, sass/layout.scss */
+#team .team_member {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+/* line 525, sass/layout.scss */
+#team .info {
+  height: 100%;
+  padding: 0 0 1rem 0;
+}
+/* line 528, sass/layout.scss */
+#team .info img {
+  width: 100%;
+  transition: all .4s ease-out .1s;
+  -moz-transition: all .4s ease-out .1s;
+  -webkit-transition: all .4s ease-out .1s;
+  margin-bottom: 0.5rem;
+}
+/* line 534, sass/layout.scss */
+#team .info img:hover {
+  width: 210%;
+}
+/* line 539, sass/layout.scss */
+#team .info h5 {
+  padding: 10px 10px 0 0;
+  margin: 0 0 10px 3px;
+  line-height: 1em;
+  opacity: 1;
+  transition: all .2s ease-out .1s;
+  -moz-transition: all .2s ease-out .1s;
+  -webkit-transition: all .2s ease-out .1s;
+  font-size: 1.125em;
+}
+/* line 550, sass/layout.scss */
+#team .info h6 {
+  padding: 0 10px 0 0;
+  font-size: 12px;
+  margin: 0 0 0 3px;
+  line-height: 1em;
+  text-transform: uppercase;
+  color: #999;
+  opacity: 1;
+  transition: all .2s ease-out .1s;
+  -moz-transition: all .2s ease-out .1s;
+  -webkit-transition: all .2s ease-out .1s;
+}
+/* line 564, sass/layout.scss */
+#team .info_reveal {
+  height: 100%;
+  transition: all .3s ease-in 0s;
+  -moz-transition: all .3s ease-in 0s;
+  -webkit-transition: all .23s ease-in 0s;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: -100%;
+  background: rgba(19, 148, 119, 0.9);
+  padding: 2rem;
+}
+/* line 575, sass/layout.scss */
+#team .info_reveal h6 {
+  padding: 20px 8px 5px 8px;
+  line-height: 1.1em;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+/* line 584, sass/layout.scss */
+#team .info_reveal p {
+  padding: 0 8px;
+  font-size: 15px;
+  line-height: 1.2em;
+  color: #073a2e;
+  font-weight: 400;
+}
+/* line 592, sass/layout.scss */
+#team .info_reveal a {
+  color: #073a2e;
+  word-break: break-word;
+  text-decoration: none;
+}
+/* line 596, sass/layout.scss */
+#team .info_reveal a:hover {
+  color: #073a2e;
+}
+/* line 602, sass/layout.scss */
+#team .responsive_grid {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 607, sass/layout.scss */
+#team .responsive_grid li {
+  cursor: pointer;
+  display: inline;
+  float: left;
+  width: 97.91667%;
+  margin: 0 1.04167%;
+  padding: 0 10px 10px;
+  display: block;
+  height: auto;
+  float: left;
+  margin-bottom: 10px;
+}
+/* line 616, sass/layout.scss */
+#team .responsive_grid li:hover .info_reveal, #team .responsive_grid li:focus .info_reveal {
+  left: 0;
+  top: 0;
+  transition: all .3s ease-out .1s;
+  -moz-transition: all .3s ease-out .1s;
+  -webkit-transition: all .3s ease-out .1s;
+}
+/* line 624, sass/layout.scss */
+#team .responsive_grid li:hover .info img, #team .responsive_grid li:focus .info img {
+  width: 210% !important;
+  transition: all .4s ease-in 0s;
+  -moz-transition: all .4s ease-in 0s;
+  -webkit-transition: all .4s ease-in 0s;
+}
+@media screen and (min-width: 48.25rem) {
+  /* line 635, sass/layout.scss */
+  #team .team h2 {
+    margin-top: 3rem;
+  }
+  /* line 637, sass/layout.scss */
+  #team .information {
+    padding: 0 0 3rem 2rem;
+    display: inline;
+    float: left;
+    width: 47.91667%;
+    margin: 0 1.04167%;
+  }
+  /* line 642, sass/layout.scss */
+  #team .responsive_grid li {
+    display: inline;
+    float: left;
+    width: 31.25%;
+    margin: 0 1.04167%;
+  }
+}
+
+/* line 649, sass/layout.scss */
+#statistics {
+  background: url(/grizzly/assets/images/homepage.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 655, sass/layout.scss */
+#statistics .row-content {
+  padding: 0;
+  background: white;
+}
+/* line 657, sass/layout.scss */
+#statistics .statistics h2 {
+  margin: 0 0 2rem 0;
+  background: #4b2424;
+  padding: 1.5rem;
+  font-size: 1.25rem;
+  margin-top: -0.025rem;
+  color: white;
+  width: 100%;
+}
+/* line 666, sass/layout.scss */
+#statistics .statistics h2 span a {
+  color: #a04e4e;
+}
+/* line 671, sass/layout.scss */
+#statistics .statistics table th:hover {
+  background: #17575c;
+  color: white;
+  cursor: pointer;
+}
+/* line 678, sass/layout.scss */
+#statistics .statistics .information {
+  padding: 0 2rem 3rem 2rem;
+}
+@media screen and (min-width: 48.25rem) {
+  /* line 683, sass/layout.scss */
+  #statistics .statistics h2 {
+    margin-top: 3rem;
+  }
+}
+
+/* line 691, sass/layout.scss */
+.adr .team-name {
+  font-weight: bold;
+  display: block;
+}

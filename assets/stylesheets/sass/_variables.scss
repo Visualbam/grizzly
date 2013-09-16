@@ -1,0 +1,42 @@
+// Base font
+$baseFontSize:16px;
+
+// Font weights
+$light: 100;
+$regular: 400;
+$bold: 600;
+
+// Colors Settings
+$primaryColor: #17575c !default;
+$secondaryColor: #6d3535 !default;
+$alertColor: #c60f13 !default;
+$successColor: #5da423 !default;
+$highlightColor: #ffff99 !default;
+$black: #000 !default;
+$white: #fff !default;
+$shinyEdge: rgba(#fff, .5) !default;
+$darkEdge: rgba(#000, .2) !default;
+
+$darkblue:rgb(68, 68, 68);
+$blue:rgb(53, 185, 255);
+$lightblue:rgb(162, 227, 255);
+$beige:rgb(246, 245, 240);
+$grey:#e5e5e5;
+$orange:rgb(229, 144, 26);
+
+// Font Settings
+$fontSmoothing: antialiased;
+$headerFontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !default;
+$headerFontWeight: normal !default;
+$headerFontStyle: normal !default;
+$headerFontColor: #434343 !default;
+$bodyFontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !default;
+$bodyFontWeight: normal !default;
+$bodyFontStyle: normal !default;
+$bodyFontColor: #333333 !default;
+
+// Media Queries
+$largeScreen: emCalc(768px) !default;
+$smallScreen: emCalc(1px) !default;
+$smallBreakPoint: "only screen and (min-width:"#{$smallScreen}")" !default;
+$largeBreakPoint: "only screen and (min-width:"#{$largeScreen}")" !default;
