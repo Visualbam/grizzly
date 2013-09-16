@@ -1,3 +1,12 @@
+Notes From Bruce—
+-------------
+
+During the assesment I took it on myself to optimize the mark up for proper semantics and seo. I removed the bootstrap markup. I believe that frameworks are great for start up companies to get their technology or business out the door quickly. However once a company has a dedicated team I think that it is safe to begin creating everything from scratch as it is much easier to maintain and provides cleaner mark up. It opens doors for better seo as well. This is context relevant though, if the company is business to business it's fine to keep the framework, but if the companies product/service is consumer facing you need the flexibility to do bigger and better things.
+
+If needed I can definitely re-do the assessment to match the provided code exactly. I just wanted to show my capabilities. I made slight UI changes as well to better suit screenreaders.
+
+The bonus section both include two things that I have not done before but I'm a very self sufficent/motivated learner.
+
 GiftCards.com Front End Developers Coding Assessment
 =========================
 
