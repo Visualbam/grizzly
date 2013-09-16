@@ -802,21 +802,13 @@ nav[role=navigation].active {
   }
 }
 
-/* line 297, sass/layout.scss */
-#contact {
-  background: url(/grizzly/assets/images/homepage.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-/* line 303, sass/layout.scss */
-#contact .row-content {
+/* line 300, sass/layout.scss */
+.contact .row-content {
   padding: 0;
   background: white;
 }
-/* line 306, sass/layout.scss */
-#contact .contact h2 {
+/* line 301, sass/layout.scss */
+.contact h2 {
   margin: 0 0 2rem 0;
   background: #4b2424;
   padding: 1.5rem;
@@ -826,50 +818,50 @@ nav[role=navigation].active {
   margin-bottom: 3.5%;
   width: 100%;
 }
-/* line 316, sass/layout.scss */
-#contact .contact h2 span a {
+/* line 311, sass/layout.scss */
+.contact h2 span a {
   color: #a04e4e;
 }
-/* line 319, sass/layout.scss */
-#contact .contact .information {
+/* line 314, sass/layout.scss */
+.contact .information {
   padding: 0 2rem 3rem 2rem;
   display: inline;
   float: left;
   width: 97.91667%;
   margin: 0 1.04167%;
 }
-/* line 322, sass/layout.scss */
-#contact .contact .information label {
+/* line 317, sass/layout.scss */
+.contact .information label {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 0.75rem;
   margin-bottom: 0.5rem;
 }
-/* line 328, sass/layout.scss */
-#contact .contact .information input[type="text"], #contact .contact .information input[type="email"], #contact .contact .information textarea {
+/* line 323, sass/layout.scss */
+.contact .information input[type="text"], .contact .information input[type="email"], .contact .information textarea {
   color: black !important;
   font-weight: bold;
 }
-/* line 332, sass/layout.scss */
-#contact .contact .information ::-webkit-input-placeholder {
+/* line 327, sass/layout.scss */
+.contact .information ::-webkit-input-placeholder {
   font-weight: normal;
 }
-/* line 336, sass/layout.scss */
-#contact .contact .information :-moz-placeholder {
+/* line 331, sass/layout.scss */
+.contact .information :-moz-placeholder {
   /* Firefox 18- */
   font-weight: normal;
 }
-/* line 340, sass/layout.scss */
-#contact .contact .information ::-moz-placeholder {
+/* line 335, sass/layout.scss */
+.contact .information ::-moz-placeholder {
   /* Firefox 19+ */
   font-weight: normal;
 }
-/* line 344, sass/layout.scss */
-#contact .contact .information :-ms-input-placeholder {
+/* line 339, sass/layout.scss */
+.contact .information :-ms-input-placeholder {
   font-weight: normal;
 }
-/* line 347, sass/layout.scss */
-#contact .contact .information input, #contact .contact .information textarea {
+/* line 342, sass/layout.scss */
+.contact .information input, .contact .information textarea {
   width: 97.4%;
   height: 3rem;
   color: black;
@@ -884,17 +876,17 @@ nav[role=navigation].active {
   -o-transition: all .1s ease-in-out;
   transition: all .1s ease-in-out;
 }
-/* line 362, sass/layout.scss */
-#contact .contact .information input:focus, #contact .contact .information textarea:focus {
+/* line 357, sass/layout.scss */
+.contact .information input:focus, .contact .information textarea:focus {
   border: 2px solid #dd4545;
   color: #999;
 }
-/* line 366, sass/layout.scss */
-#contact .contact .information textarea {
+/* line 361, sass/layout.scss */
+.contact .information textarea {
   height: 150px;
 }
-/* line 369, sass/layout.scss */
-#contact .contact .information .submit {
+/* line 364, sass/layout.scss */
+.contact .information .submit {
   width: 97%;
   padding: 0.5rem 1rem;
   font-size: 1rem;
@@ -911,19 +903,19 @@ nav[role=navigation].active {
   -o-transition: all .1s ease-in-out;
   transition: all .1s ease-in-out;
 }
-/* line 385, sass/layout.scss */
-#contact .contact .information .submit:hover {
+/* line 380, sass/layout.scss */
+.contact .information .submit:hover {
   color: #FFF;
   border: 2px solid #dd4545;
   background: #b43838;
   cursor: pointer;
 }
-/* line 392, sass/layout.scss */
-#contact .contact .information .required {
+/* line 387, sass/layout.scss */
+.contact .information .required {
   color: #b43838;
 }
-/* line 396, sass/layout.scss */
-#contact .contact .map {
+/* line 391, sass/layout.scss */
+.contact .map {
   display: inline;
   float: left;
   width: 97.91667%;
@@ -931,20 +923,20 @@ nav[role=navigation].active {
   padding: 0 2rem 3rem 2rem;
 }
 @media screen and (min-width: 48.25rem) {
-  /* line 405, sass/layout.scss */
-  #contact .contact h2 {
+  /* line 396, sass/layout.scss */
+  .contact h2 {
     margin-top: 3rem;
   }
-  /* line 406, sass/layout.scss */
-  #contact .contact .information {
+  /* line 397, sass/layout.scss */
+  .contact .information {
     padding: 0 0 3rem 2rem;
     display: inline;
     float: left;
     width: 47.91667%;
     margin: 0 1.04167%;
   }
-  /* line 410, sass/layout.scss */
-  #contact .contact .map {
+  /* line 401, sass/layout.scss */
+  .contact .map {
     display: inline;
     float: left;
     width: 47.91667%;
@@ -953,21 +945,13 @@ nav[role=navigation].active {
   }
 }
 
-/* line 420, sass/layout.scss */
-#sponsors {
-  background: url(/grizzly/assets/images/homepage.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-/* line 426, sass/layout.scss */
-#sponsors .row-content {
+/* line 413, sass/layout.scss */
+.sponsors .row-content {
   padding: 0;
   background: white;
 }
-/* line 428, sass/layout.scss */
-#sponsors .sponsors h2 {
+/* line 414, sass/layout.scss */
+.sponsors h2 {
   margin: 0 0 2rem 0;
   background: #4b2424;
   padding: 1.5rem;
@@ -976,77 +960,73 @@ nav[role=navigation].active {
   color: white;
   width: 100%;
 }
-/* line 437, sass/layout.scss */
-#sponsors .sponsors h2 span a {
+/* line 423, sass/layout.scss */
+.sponsors h2 span a {
   color: #a04e4e;
 }
-/* line 440, sass/layout.scss */
-#sponsors .sponsors .information {
+/* line 426, sass/layout.scss */
+.sponsors .information {
   padding: 0 2rem 3rem 2rem;
 }
-/* line 442, sass/layout.scss */
-#sponsors .sponsors .information h3 {
+/* line 428, sass/layout.scss */
+.sponsors .information h3 {
   margin: 0 0 1rem 0;
   font-weight: bold;
 }
-/* line 447, sass/layout.scss */
-#sponsors .sponsors .information ul li {
+/* line 433, sass/layout.scss */
+.sponsors .information ul li {
   display: inline;
   float: left;
   width: 97.91667%;
   margin: 0 1.04167%;
 }
-/* line 451, sass/layout.scss */
-#sponsors .sponsors .information img {
+/* line 437, sass/layout.scss */
+.sponsors .information img {
   width: 100%;
   padding: 1rem;
 }
 @media screen and (min-width: 28.25rem) {
-  /* line 459, sass/layout.scss */
-  #sponsors .sponsors .information ul li {
+  /* line 445, sass/layout.scss */
+  .sponsors .information ul li {
     display: inline;
     float: left;
     width: 47.91667%;
     margin: 0 1.04167%;
   }
-  /* line 463, sass/layout.scss */
-  #sponsors .sponsors .information img {
+  /* line 449, sass/layout.scss */
+  .sponsors .information img {
     padding: 2rem;
   }
 }
 @media screen and (min-width: 48.25rem) {
-  /* line 470, sass/layout.scss */
-  #sponsors .sponsors h2 {
+  /* line 456, sass/layout.scss */
+  .sponsors h2 {
     margin-top: 3rem;
   }
-  /* line 473, sass/layout.scss */
-  #sponsors .sponsors .information ul li {
+  /* line 457, sass/layout.scss */
+  .sponsors .information {
+    width: 100%;
+  }
+  /* line 460, sass/layout.scss */
+  .sponsors .information ul li {
     display: inline;
     float: left;
     width: 22.91667%;
     margin: 0 1.04167%;
   }
-  /* line 477, sass/layout.scss */
-  #sponsors .sponsors .information img {
+  /* line 464, sass/layout.scss */
+  .sponsors .information img {
     padding: 2rem;
   }
 }
 
-/* line 487, sass/layout.scss */
-#team {
-  background: url(/grizzly/assets/images/homepage.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-/* line 493, sass/layout.scss */
-#team .row-content {
+/* line 474, sass/layout.scss */
+.team .row-content {
   padding: 0;
   background: white;
 }
-/* line 496, sass/layout.scss */
-#team .team h2 {
+/* line 475, sass/layout.scss */
+.team h2 {
   margin: 0 0 2rem 0;
   background: #4b2424;
   padding: 1.5rem;
@@ -1056,51 +1036,53 @@ nav[role=navigation].active {
   margin-bottom: 5.5%;
   width: 100%;
 }
-/* line 506, sass/layout.scss */
-#team .team h2 span a {
+/* line 485, sass/layout.scss */
+.team h2 span a {
   color: #a04e4e;
 }
-/* line 509, sass/layout.scss */
-#team .team .information {
+/* line 488, sass/layout.scss */
+.team .information {
   padding: 0 2rem 3rem 2rem;
   display: inline;
   float: left;
   width: 97.91667%;
   margin: 0 1.04167%;
 }
-/* line 513, sass/layout.scss */
-#team .team .map {
+/* line 492, sass/layout.scss */
+.team .map {
   display: inline;
   float: left;
   width: 97.91667%;
   margin: 0 1.04167%;
   padding: 0 2rem 3rem 2rem;
 }
-/* line 519, sass/layout.scss */
-#team .team_member {
+
+/* line 498, sass/layout.scss */
+.team_member {
   width: 100%;
   position: relative;
   overflow: hidden;
 }
-/* line 525, sass/layout.scss */
-#team .info {
+
+/* line 504, sass/layout.scss */
+.info {
   height: 100%;
   padding: 0 0 1rem 0;
 }
-/* line 528, sass/layout.scss */
-#team .info img {
+/* line 507, sass/layout.scss */
+.info img {
   width: 100%;
   transition: all .4s ease-out .1s;
   -moz-transition: all .4s ease-out .1s;
   -webkit-transition: all .4s ease-out .1s;
   margin-bottom: 0.5rem;
 }
-/* line 534, sass/layout.scss */
-#team .info img:hover {
+/* line 513, sass/layout.scss */
+.info img:hover {
   width: 210%;
 }
-/* line 539, sass/layout.scss */
-#team .info h5 {
+/* line 518, sass/layout.scss */
+.info h5 {
   padding: 10px 10px 0 0;
   margin: 0 0 10px 3px;
   line-height: 1em;
@@ -1110,8 +1092,8 @@ nav[role=navigation].active {
   -webkit-transition: all .2s ease-out .1s;
   font-size: 1.125em;
 }
-/* line 550, sass/layout.scss */
-#team .info h6 {
+/* line 529, sass/layout.scss */
+.info h6 {
   padding: 0 10px 0 0;
   font-size: 12px;
   margin: 0 0 0 3px;
@@ -1123,8 +1105,9 @@ nav[role=navigation].active {
   -moz-transition: all .2s ease-out .1s;
   -webkit-transition: all .2s ease-out .1s;
 }
-/* line 564, sass/layout.scss */
-#team .info_reveal {
+
+/* line 543, sass/layout.scss */
+.info_reveal {
   height: 100%;
   transition: all .3s ease-in 0s;
   -moz-transition: all .3s ease-in 0s;
@@ -1136,8 +1119,8 @@ nav[role=navigation].active {
   background: rgba(19, 148, 119, 0.9);
   padding: 2rem;
 }
-/* line 575, sass/layout.scss */
-#team .info_reveal h6 {
+/* line 554, sass/layout.scss */
+.info_reveal h6 {
   padding: 20px 8px 5px 8px;
   line-height: 1.1em;
   margin-bottom: 20px;
@@ -1145,33 +1128,34 @@ nav[role=navigation].active {
   font-size: 1.5rem;
   font-weight: bold;
 }
-/* line 584, sass/layout.scss */
-#team .info_reveal p {
+/* line 563, sass/layout.scss */
+.info_reveal p {
   padding: 0 8px;
   font-size: 15px;
   line-height: 1.2em;
   color: #073a2e;
   font-weight: 400;
 }
-/* line 592, sass/layout.scss */
-#team .info_reveal a {
+/* line 571, sass/layout.scss */
+.info_reveal a {
   color: #073a2e;
   word-break: break-word;
   text-decoration: none;
 }
-/* line 596, sass/layout.scss */
-#team .info_reveal a:hover {
+/* line 575, sass/layout.scss */
+.info_reveal a:hover {
   color: #073a2e;
 }
-/* line 602, sass/layout.scss */
-#team .responsive_grid {
+
+/* line 581, sass/layout.scss */
+.responsive_grid {
   display: block;
   margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 607, sass/layout.scss */
-#team .responsive_grid li {
+/* line 586, sass/layout.scss */
+.responsive_grid li {
   cursor: pointer;
   display: inline;
   float: left;
@@ -1183,58 +1167,52 @@ nav[role=navigation].active {
   float: left;
   margin-bottom: 10px;
 }
-/* line 616, sass/layout.scss */
-#team .responsive_grid li:hover .info_reveal, #team .responsive_grid li:focus .info_reveal {
+/* line 595, sass/layout.scss */
+.responsive_grid li:hover .info_reveal, .responsive_grid li:focus .info_reveal {
   left: 0;
   top: 0;
   transition: all .3s ease-out .1s;
   -moz-transition: all .3s ease-out .1s;
   -webkit-transition: all .3s ease-out .1s;
 }
-/* line 624, sass/layout.scss */
-#team .responsive_grid li:hover .info img, #team .responsive_grid li:focus .info img {
+/* line 603, sass/layout.scss */
+.responsive_grid li:hover .info img, .responsive_grid li:focus .info img {
   width: 210% !important;
   transition: all .4s ease-in 0s;
   -moz-transition: all .4s ease-in 0s;
   -webkit-transition: all .4s ease-in 0s;
 }
+
 @media screen and (min-width: 48.25rem) {
-  /* line 635, sass/layout.scss */
-  #team .team h2 {
+  /* line 614, sass/layout.scss */
+  .team h2 {
     margin-top: 3rem;
   }
-  /* line 637, sass/layout.scss */
-  #team .information {
+
+  /* line 616, sass/layout.scss */
+  .information {
     padding: 0 0 3rem 2rem;
     display: inline;
     float: left;
     width: 47.91667%;
     margin: 0 1.04167%;
   }
-  /* line 642, sass/layout.scss */
-  #team .responsive_grid li {
+
+  /* line 621, sass/layout.scss */
+  .responsive_grid li {
     display: inline;
     float: left;
     width: 31.25%;
     margin: 0 1.04167%;
   }
 }
-
-/* line 649, sass/layout.scss */
-#statistics {
-  background: url(/grizzly/assets/images/homepage.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-/* line 655, sass/layout.scss */
-#statistics .row-content {
+/* line 628, sass/layout.scss */
+.statistics .row-content {
   padding: 0;
   background: white;
 }
-/* line 657, sass/layout.scss */
-#statistics .statistics h2 {
+/* line 629, sass/layout.scss */
+.statistics h2 {
   margin: 0 0 2rem 0;
   background: #4b2424;
   padding: 1.5rem;
@@ -1243,28 +1221,32 @@ nav[role=navigation].active {
   color: white;
   width: 100%;
 }
-/* line 666, sass/layout.scss */
-#statistics .statistics h2 span a {
+/* line 638, sass/layout.scss */
+.statistics h2 span a {
   color: #a04e4e;
 }
-/* line 671, sass/layout.scss */
-#statistics .statistics table th:hover {
+/* line 643, sass/layout.scss */
+.statistics table th:hover {
   background: #17575c;
   color: white;
   cursor: pointer;
 }
-/* line 678, sass/layout.scss */
-#statistics .statistics .information {
+/* line 650, sass/layout.scss */
+.statistics .information {
   padding: 0 2rem 3rem 2rem;
 }
 @media screen and (min-width: 48.25rem) {
-  /* line 683, sass/layout.scss */
-  #statistics .statistics h2 {
+  /* line 655, sass/layout.scss */
+  .statistics h2 {
     margin-top: 3rem;
+  }
+  /* line 656, sass/layout.scss */
+  .statistics .information {
+    width: 100%;
   }
 }
 
-/* line 691, sass/layout.scss */
+/* line 663, sass/layout.scss */
 .adr .team-name {
   font-weight: bold;
   display: block;
